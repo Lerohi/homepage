@@ -22,4 +22,4 @@ jobs:
             cd frontend/
             npm install
             npm run build
-            systemctl restart nextjs-domain
+            sudo systemctl restart nextjs-domain
