@@ -22,4 +22,4 @@ jobs:
             cd frontend/
             npm install
             npm run build
-            sudo systemctl restart nextjs-domain
+            sudo /var/www/nextjs/deploy.sh
