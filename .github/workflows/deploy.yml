@@ -19,7 +19,4 @@ jobs:
           script: |
             cd /var/www/nextjs/
             git pull origin main
-            cd frontend/
-            npm install
-            npm run build
             sudo /var/www/nextjs/deploy.sh
