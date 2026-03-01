@@ -9,7 +9,10 @@ export async function GET() {
             memory: process.memoryUsage().rss
         },
         {
-            status:200
+            status:200,
+            headers: {
+                'Cache-Control': 'no-store',
+            }
         }
     );
 }
